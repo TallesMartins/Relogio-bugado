@@ -1,4 +1,4 @@
-function carregar(){
+setInterval(function carregar(){
     var msg = document.getElementById('msg')
     var imagem = document.getElementById('foto')
     var data = new Date()
@@ -22,4 +22,4 @@ function carregar(){
         imagem.src = 'noite.png'
         document.body.style.backgroung = '#3F3F40'
     }
-}
+},1000)
